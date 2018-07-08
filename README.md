@@ -14,7 +14,7 @@ In this map we find the functions that load the data sets for the stochastic gra
 
 ## SGD and Differentially private SGD
 * computeCost.m - computes the value of the cost given a set of observations
-* computeGradient.m - computes the gradient of a single observations
+* computeGradient.m - computes the gradient based on a single observation
 * laplace.m - generates the the laplace noise vector for differentially private SGD
 * SGD.m - code for standard stochastic gradient descent
 * DPSGD.m - code for differentially private stochastic gradient descent
