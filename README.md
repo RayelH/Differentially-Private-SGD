@@ -6,7 +6,7 @@
 * BankNoteData.mat - Banknote authentication data set
 * KDDCUPX.mat / KDDCUPY.mat - KDDCup Data set
 * mnist.mat - MNIST data set
-* occupationData.mat - Occupancy detection data sets
+* occupationData.mat - Occupancy detection data set
 
 ## Data loading functions
 
@@ -21,4 +21,4 @@ In this map we find the functions that load the data sets for the stochastic gra
 
 ## plotting functions
 * plotObj.m - code used for all the plots of figures 1, 2, 3, 7, 8 and 9. It plots the objective value averaged over 20 permutations versus the number of iterations.
-* plotsSyn.m - code used for all the plots of figures 4, 5 and 6. it can plot objective value versus batch size and objective value versus number of data points.
+* plotsSyn.m - code used for all the plots of figures 4, 5 and 6. it can plot the  objective value versus batch size and objective value versus number of data points.
