@@ -8,5 +8,3 @@ l = gamrnd(size(u,1),2/alpha);
 k = l*u;
 
 end
-
-

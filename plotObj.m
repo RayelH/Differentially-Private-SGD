@@ -42,5 +42,4 @@ last_obj = avgdp_cost(length(avgdp_cost));
 last_stdev = s(length(s));
 sgd_cost_last = sgd_cost(length(sgd_cost));
 
-
 end
