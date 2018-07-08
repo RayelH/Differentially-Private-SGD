@@ -1,10 +1,4 @@
 function cost_history = DPSGD(X,y,b)
-%% initialize
-
-%% load data
-%[X, y] = loadMnist();
-%[X, y] = loadKDD(); 
-%[X, y] = loadBankNote();
 
 %% initialize variables and constants
 

@@ -1,5 +1,4 @@
-function [last_obj, last_stdev, sgd_cost_last] = run(b)
-
+function [last_obj, last_stdev, sgd_cost_last] = plot(b)
 
 [X, y] = loadMnist();
 number_of_perms = 20;
@@ -43,15 +42,5 @@ last_obj = avgdp_cost(length(avgdp_cost));
 last_stdev = s(length(s));
 sgd_cost_last = sgd_cost(length(sgd_cost));
 
-%s = s(numberofbars);
-%size(s)
 
-
-
-
-%size(y)
-
-%x = 1:length(y);
-
-%errorbar(x,y,s,'-s','MarkerSize',10,'MarkerEdgeColor','red','MarkerFaceColor','red');
 end

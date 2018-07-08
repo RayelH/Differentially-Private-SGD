@@ -6,8 +6,8 @@ X = X.kddcup1;
 X = normr(X);
 
 % random projection to d = 9
-%r = randi([1 size(X,2)],1,9);
-%X = X(:,r);
+r = randi([1 size(X,2)],1,9);
+X = X(:,r);
 
 % labels
 y_string = load('KDDCUPY.mat');
