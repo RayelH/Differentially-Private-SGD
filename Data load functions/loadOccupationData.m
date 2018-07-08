@@ -12,4 +12,5 @@ X = normr(X);
 y = data(:,6);
 y(y == 0) = -1;
 y = y';
+
 end

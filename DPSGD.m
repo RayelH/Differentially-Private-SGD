@@ -20,6 +20,7 @@ w = randn(d,1);
 cost_history = zeros(1, (number_of_batches*epochs)+1);
 w_history = zeros(d, (number_of_batches*epochs)+1);
 lr_var = 1;
+
 %% run stochastic gradient descent
 obs_order = 1:size(X,1);
 obs_order = obs_order(randperm(length(obs_order))); % random order of observations for SGD
